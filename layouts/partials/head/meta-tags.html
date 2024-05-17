@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<meta name="msvalidate.01" content="B41B9A48E0DC515BE32651155BBCB957" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
 
@@ -7,7 +8,7 @@
 {{ end }}
 
 {{ with .Site.Params.author }}
-<meta name="msvalidate.01" content="B41B9A48E0DC515BE32651155BBCB957" />
+<!-- <meta name="msvalidate.01" content="B41B9A48E0DC515BE32651155BBCB957" /> -->
 <meta name="author" content="{{ . }}">{{ end }}
 <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
 <meta name="keywords" content="{{ (delimit .Keywords ", ") | default .Site.Params.keywords }}">
