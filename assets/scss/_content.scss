@@ -126,7 +126,7 @@
     li {
       font-size: 1.8rem;
       border-bottom: 2px solid #eaecef; // 更改这里的值为2px
-      padding-bottom: 1.6rem;
+      padding: 1.6rem 0;          
 
       @media only screen and (max-width: 768px) {
         margin: 1.6rem 0 1.6rem 0;
@@ -136,9 +136,10 @@
         display: inline-block;
         flex: 1;
         width: 20rem;
+        //日期靠左
         text-align: left;
         margin-left: 3rem;
-        text-align: right;
+        // text-align: right;
         margin-right: 3rem;
 
         @media only screen and (max-width: 768px) {
@@ -148,9 +149,10 @@
       }
 
       .title {
-        font-size: 1.8rem;
+        font-size: 2rem;
         flex: 2;
         color: $fg-color;
+        text-align: left;
         font-family: $font-family;
         font-weight: 700;
 
